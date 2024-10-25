@@ -1,0 +1,71 @@
+.addbookContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 100vh;
+    padding: 30px 0;
+}
+
+/*Diseño de formulario para agregar libros */
+.formBook{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBook input{
+    border: 1px solid var(--text-light);
+    margin-bottom: 40px;
+    width: 380px;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline-color: var(--bg-green);
+}
+
+.divOne, .divTwo{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+}
+
+.btnBack{
+    align-self: flex-start;
+    margin-left: 150px;
+}
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* Diseño de botones para regresar y agregar */
+.btnBack, .btnAdd{
+    border: none;
+    cursor: pointer;
+    background-color: var(--bg-green);
+    padding: 14px 20px;
+    border-radius: 5px;
+    color: var(--bg-white);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btnAdd:hover, .btnBack:hover{
+    background-color: var(--bg-green-dark);
+}
+
+.iconArrow{
+    margin-right: 10px;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

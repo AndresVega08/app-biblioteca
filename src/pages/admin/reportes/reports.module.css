@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--bg-white);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 25px;
+    color: #333;
+}
+
+.btns{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.btns button{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 20px;
+    border: 1px solid var(--text-light);
+    cursor: pointer;
+    background-color: var(--bg-white);
+}
+.btns button:hover{
+    background-color: var(--bg-gray);
+}
+
+.btnReport{
+    margin-top: 20px;
+    align-self: center;
+    border: none;
+    cursor: pointer;
+    background-color: var(--bg-green);
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: var(--bg-white);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btnReport:hover{
+    background-color: var(--bg-green-dark);
+}
+
+.arrowDown{
+    margin-left: 50px;
+    color: var(--text-light);
+}

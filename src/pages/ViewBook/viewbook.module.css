@@ -1,0 +1,82 @@
+/* Margenes general de la vista ViewBook */
+.container{
+    display: flex;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+/* Contenido de carátula y boton de reserva*/
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.button{
+    background-color: var(--bg-green) ;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--bg-white);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px; 
+    font-size: 20px;
+    
+}
+
+.button:hover{
+    transition: all ease 0.3s;
+    background-color: #005D03;
+}
+
+
+/* Descripción y detalles del libro */
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 50px;
+    
+}
+
+.detail p{
+    margin-top: 10px;
+}
+
+.textDetail{
+    display: flex;
+    padding-top: 20px;
+}
+
+.textDetail p{
+    margin-top: 4px;
+    margin-left: 7px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.description{
+    font-size: 16px;
+}
+
+/* Botón para añadir a la lista */
+.favorite{
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;  
+}
+
+.iconHeart{
+    margin-left: 5px;
+}

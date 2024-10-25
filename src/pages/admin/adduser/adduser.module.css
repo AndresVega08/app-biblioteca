@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.btnBack{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--bg-green);
+    padding: 14px 20px;
+    border-radius: 5px;
+    color: var(--bg-white);
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+.formUser{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formControl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.formUser input{
+  width: 100%;
+  min-width: 250px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--text-light);
+  border-radius: 5px;
+
+}
+
+.formUser select{
+  width: 100%;
+  padding: 10px;
+  min-width: 250px;
+  margin: 10px 0;
+  border: 1px solid var(--text-light);
+  border-radius: 5px;
+}
+
+.formUser button{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--bg-green);
+  color: var(--bg-white);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,15 @@
+.BookCardContainer{
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 16px; /* Espacio entre las tarjetas */
+}
+
+.text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    padding: 10px 60px;
+}
